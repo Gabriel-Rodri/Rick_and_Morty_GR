@@ -1,0 +1,42 @@
+.card {
+  background-image: url("portal.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 8px;
+  padding: 6px;
+  width: 330px;
+  height: 330px;
+  font-size: 15px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.card img{
+    width: 130px;
+}
+
+.card button{
+  background-image: url("pistola.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 4px 7px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  rotate: -30deg;
+  border: none;
+}
+
+.close{
+  position: relative;
+  top: 10px;
+  left: 270px;
+}
+
+.info{
+  text-align: center;
+}
+
+.info img{
+  border-radius: 100px;
+}
